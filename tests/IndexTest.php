@@ -17,5 +17,6 @@ class IndexTest extends TestCase
     public function testIndex()
     {
         $index = new Index();
+        $this->assertEquals($index->index(), 'index');
     }
 }
